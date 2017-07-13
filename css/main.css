@@ -1,0 +1,125 @@
+@media screen and (min-width: 700px) {
+   body {
+      width: 700px;
+      margin: auto;
+   }
+}
+
+@media screen and (max-width: 319px) {
+   body {
+      width: 319px;
+      overflow: scroll;
+   }
+}
+
+@media screen and (min-width: 500px) {
+   .header__title1 {
+      font: 500 65px "Tangerine", serif;
+      margin: 0;
+   }
+   .header__title3 {
+      font: 300 larger "Droid Serif", serif;
+      margin: 0;
+   }
+   .portfolio__header2 {
+      font: 500 x-large "Droid Serif", serif;
+    }
+}
+
+@media screen and (max-width: 501px) {
+   .header__title1 {
+      font: 500 40px "Tangerine", serif;
+      margin: 2%;
+   }
+   .header__title3 {
+      font: 300 smaller "Droid Serif", serif;
+      margin: 2%;
+   } 
+   .portfolio__header2 {
+      font: 500 medium "Droid Serif", serif;
+    }
+ }
+
+.header {
+   display:flex;
+   max-width: 100%;
+   height: auto;
+   border-bottom: solid #7d97ad;
+   padding: 1%;
+}
+
+.header__div1 {
+   width: 12%;
+   height: auto;
+}
+
+.header__logo {
+   max-width: 100%;
+   height: auto;
+   float: left;
+   margin: 4%;
+}
+
+.header__div2 {
+   width: 88%;
+   height: auto;
+   padding-right: 2%;
+}
+
+.header__title1 {
+   max-width: 100%;
+   height: auto;
+   text-align: right;
+   clear: right;
+   float: right;
+   color: #2d3c49;
+   text-shadow: 4px 4px 4px #aaa;
+}
+
+.header__title3 {
+   max-width: 100%;
+   height: auto;
+   text-align: right;
+   clear: right;
+   float: right;
+   color: #2d3c49;
+}
+
+.intro {
+   width: 100%;
+   height: auto;
+}
+
+.cover__art {
+   margin-top: 2%;
+   max-width: 100%;
+   outline: 0;
+   border-radius: 10%;
+}
+
+.portfolio__header2 {
+   color: #7d97ad;
+   margin: 1%;
+}
+
+.portfolio__menu {
+   display: flex;
+   max-width: 100%
+}
+
+.portfolio__menu__item {
+   width: 33.3%;
+   height: auto;
+   text-align: center;
+   font-family: Arial, sans-serif;
+   border-color: #7d97ad;
+   border-style: solid;
+   border-radius: 10%;
+   padding: 2%;
+   margin: 1%;
+}
+
+.portfolio__menu__logo {
+    max-width: 100%;
+    height: auto;
+}
