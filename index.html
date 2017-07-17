@@ -3,70 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="portfolio homepage for marie jolie">
+  <meta name="description" content="portfolio for marie jolie">
   <meta name="author" content="Marie-Denise Jolie">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-  <link rel="stylesheet" href="css/main.css"> 
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet"> 
 </head>
 
 <body>
-  <!-- portflio with heder, intro and menu of work -->
-  <article id="marie__jolie__portfolio">
-    <!-- header flex box for logo and titles responsiveness -->
-    <header class="header">
+<!-- portflio body contains heder, intro and menu of work sections-->
+
+  <!-- header flex box for logo and titles responsiveness -->
+  <header id="header" class="header">
+    <div class="header-padding padding"> 
       <!-- logo -->
-      <div class="header__div1">
-        <img class="header__logo" alt="udacity__Logo" src="img/udacity-logo.svg">
-      </div>
-      <!-- name and title -->
-      <div class="header__div2">
-        <h1 class="header__title1">Marie-Denise Jolie</h1>
-        <h3 class="header__title3">Full Stack Developer</h3>
-      </div>
-     <!-- end header -->
-    </header>
-
-    <!-- TODO convert section to about me with href to linkedin profile -->
-    <!-- consider using srcset since this img is large -->
-    <div id="introduction_aboutme" class="intro" >
-     <img class="cover__art" alt="intro__cover__art" src="img/coverImage.jpg">
+        <div class="header-logo-div">
+          <img class="header-logo" alt="udacity-Logo" src="img/udacity-logo.svg">
+        </div>
+        <!-- name and title -->
+        <div class="header-title-div">
+          <h1 class="header-title1">Marie-Denise Jolie</h1>
+          <h3 class="header-title3">Full Stack Developer</h3>
+        </div>
     </div>
+   <!-- end header -->
+  </header>
 
-    <!-- portfolio work section contains header and flex box menu of work -->
-    <section id="portfolio__work" class="portfolio__work" >
-      <h2 class="portfolio__header2">Portfolio</h2>
-
-       <!-- flex box menu using figures with links within fig captions -->
-      <div id="portfolio__menu" class="portfolio__menu">
-        <!-- menu item -->
-        <figure class="portfolio__menu__item">
-          <img class="portfolio__menu__logo" alt="python__logo" src="img/python_logo.jpg">
-          <figcaption>
-            <a href="https://github.com/mdjolieca/ud036_StarterCode" target="_blank">Git Repo</a>
-          </figcaption>
-        </figure>
-        <!-- menu item -->
-        <figure class="portfolio__menu__item">
-          <img class="portfolio__menu__logo" alt="java__logo" src="img/java_logo.png">
-          <figcaption>
-            <!-- TODO Update java url once git repos created -->
-            <a href="https://github.com/mdjolieca" target="_blank">Git Repo</a>
-          </figcaption>
-        </figure>
-        <!-- menu item -->
-        <figure class="portfolio__menu__item">
-          <img class="portfolio__menu__logo" alt="html__css__Logo" src="img/html_logo.jpg">
-          <figcaption>
-            <a href="https://github.com/mdjolieca/Udacity_Portfolio_Project" target="_blank">Git Repo</a>
-          </figcaption>
-        </figure>
-       <!--end menu of work items --> 
+  <section id="intro" class="intro">
+    <div class="intro-padding padding">
+      <div class="intro-portrait-div">
+        <img class="intro-portrait" alt="self portrait" src="img/portrait.jpg">
       </div>
-      <!-- end portfolio work section -->
-    </section>
-    <!-- end portfolio -->
-  </article>
+        <div class="intro-about-me-div">
+        <h3 class="intro-about-me-h3"> Welcome to My Portfolio </h3>
+        <p class="intro-about-me-p"> I am a Software Engineer with over 15 years experience. I recently decided to pursue a 
+          career change into Full Stack Developent. To facility my career change I am currently enrolled in the 
+         <a  class="intro-about-me-a" href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004"
+         target="_blank">Udacity Full Stack Web Developer Nano Degree</a>
+         program. Featured below are links to some of my course work projects. I plan to continue adding to my
+         portfolio so please visit again. 
+        </p>
+      </div>
+    </div> 
+  </section>
+
+  <!-- portfolio work section contains header and flex box menu of work -->
+  <div id="portfolio-work" class="portfolio-work">
+    <div class="portfolio-padding padding">
+     <!-- flex box menu using figures with links within fig captions -->
+      <div id="portfolio-menu" class="portfolio-menu">
+        <!-- menu item -->
+        <figure class="portfolio-menu-item">
+          <a href="https://github.com/mdjolieca/ud036_StarterCode" target="_blank">
+            <img class="portfolio-menu-logo" alt="python-logo" src="img/python_logo.jpg">
+          </a>
+        </figure>
+        <!-- menu item -->
+        <figure class="portfolio-menu-item">
+          <a href="https://github.com/mdjolieca" target="_blank">
+            <img class="portfolio-menu-logo" alt="java-logo" src="img/java_logo.png">
+          </a>
+        </figure>
+        <!-- menu item -->
+        <figure class="portfolio-menu-item">
+          <a href="https://github.com/mdjolieca/Udacity_Portfolio_Project" target="_blank">
+            <img class="portfolio-menu-logo" alt="html-css-Logo" src="img/css3-html5-js-logo.png">
+          </a>
+        </figure>
+      <!--end menu of work items -->
+      </div>
+    <!--end portfolio padding div -->
+   </div>
+  <!-- end portfolio work section -->
+  </div>
+
 </body>
 </html>
