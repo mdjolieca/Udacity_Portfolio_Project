@@ -10,16 +10,20 @@
       font:  25px "Open Sans", sans-serif;
       margin: 2%;
    }
+
    .header-title3 {
       font: 300 smaller "Droid Serif", serif;
       margin: 2%;
    }
+
     .intro-about-me-h3 {
       font-size: 18px; 
     }
+
     .intro-about-me-p {
       font-size: 14px;
     }
+
     .padding {
       margin-right: 0;
       margin-left: 0;
@@ -32,13 +36,16 @@
       font: 30px "Open Sans", sans-serif;
       margin: 0;
    }
+
    .header-title3 {
       font: 300 large "Droid Serif", serif;
       margin: 0;
    }
+
     .intro-about-me-h3 {
       font-size: 22px;
     }
+
     .intro-about-me-p {
       font-size: 18px;
     }
@@ -60,7 +67,7 @@
 }
 
 body {
-   background-color: #F6F6F6;
+   background-color: #f6f6f6;
    outline: none;
    margin: 0;
 }
