@@ -1,7 +1,7 @@
 # Udacity_Portfolio_Project
 
 Project is part of [Udacity Full Stack Nanodegree program.](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004)
-
+Focus of this project is on responsive design using: html, css, flexbox. and media querries to ensure page displays nicely on all size devices. To view the site on github pages go to https://mdjolieca.github.io/Udacity_Portfolio_Project/
 
 # Project Overview
 For this project, you'll be building a portfolio website. You will be provided a design mockup as a PDF-file, and you must replicate that design in HTML and CSS. You will develop a responsive website that will display images, descriptions and links to each of the portfolio projects you will complete through the course of your Nanodegree program. Please note that while you should aim to recreate the mockup, you may also use your own custom images to personalize this project.
