@@ -1,5 +1,5 @@
 @media screen and (max-width: 319px) {
-   body {
+   .body {
      width: 319px;
      overflow: scroll;
    }
